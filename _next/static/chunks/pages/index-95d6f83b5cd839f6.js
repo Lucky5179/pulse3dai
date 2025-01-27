@@ -341,11 +341,11 @@
           badge_4: !1,
           badge_5: !1,
           contract_config: "0xcomingsoon",
-          link_uniswap: "#",
-          link_etherscan: "#",
-          link_dexcreener: "#",
+          link_uniswap: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon",
+          link_etherscan: "https://etherscan.io/address/0xcomingsoon",
+          link_dexcreener: "https://dexscreener.com/ethereum/0xcomingsoon",
           link_dextool: "#",
-          contract_link: "#",
+          contract_link: "https://etherscan.io/address/0xcomingsoon",
         });
         function d(e) {
           navigator.clipboard.writeText(e),
@@ -468,17 +468,7 @@
                                           (0, i.jsx)("a", {
                                             rel: "nofollow cursor-pointer",
                                             onClick:
-                                              (null == c
-                                                ? void 0
-                                                : c.contract_link) === "#"
-                                                ? () => {}
-                                                : () => {
-                                                    window.open(
-                                                      null == c
-                                                        ? void 0
-                                                        : c.contract_link
-                                                    );
-                                                  },
+                                              "0xcomingsoon",
                                             children: (0, i.jsxs)("span", {
                                               className: "fw-800",
                                               style: {
@@ -487,9 +477,7 @@
                                               },
                                               children: [
                                                 "CA: ",
-                                                null == c
-                                                  ? void 0
-                                                  : c.contract_config,
+                                                "0xcomingsoon",
                                               ],
                                             }),
                                           }),
@@ -498,9 +486,7 @@
                                               "text-white ms-md-3 ms-1",
                                             onClick: () => {
                                               d(
-                                                null == c
-                                                  ? void 0
-                                                  : c.contract_config
+                                                "0xcomingsoon"
                                               );
                                             },
                                             children: (0, i.jsx)("i", {
@@ -531,9 +517,7 @@
                                                   ? () => {}
                                                   : () => {
                                                       window.open(
-                                                        null == c
-                                                          ? void 0
-                                                          : c.contract_link
+                                                        "0xcomingsoon"
                                                       );
                                                     },
                                               children: (0, i.jsx)("span", {
@@ -577,84 +561,7 @@
                                     }),
                                   ],
                                 }),
-                                (0, i.jsxs)("div", {
-                                  className:
-                                    "d-flex mt-1 justify-content-center",
-                                  children: [
-                                    (0, i.jsx)("img", {
-                                      alt: "",
-                                      onClick:
-                                        (null == c
-                                          ? void 0
-                                          : c.link_uniswap) === "#"
-                                          ? () => {}
-                                          : () => {
-                                              window.open(
-                                                null == c
-                                                  ? void 0
-                                                  : c.link_uniswap
-                                              );
-                                            },
-                                      className:
-                                        "img-after-ca me-1 cursor-pointer",
-                                      src: "/assets/img/icons/icon-1.png",
-                                    }),
-                                    (0, i.jsx)("img", {
-                                      alt: "",
-                                      onClick:
-                                        (null == c
-                                          ? void 0
-                                          : c.link_etherscan) === "#"
-                                          ? () => {}
-                                          : () => {
-                                              window.open(
-                                                null == c
-                                                  ? void 0
-                                                  : c.link_etherscan
-                                              );
-                                            },
-                                      className:
-                                        "img-after-ca me-1 cursor-pointer",
-                                      src: "/assets/img/icons/icon-2.png",
-                                    }),
-                                    (0, i.jsx)("img", {
-                                      alt: "",
-                                      onClick:
-                                        (null == c
-                                          ? void 0
-                                          : c.link_dexcreener) === "#"
-                                          ? () => {}
-                                          : () => {
-                                              window.open(
-                                                null == c
-                                                  ? void 0
-                                                  : c.link_dexcreener
-                                              );
-                                            },
-                                      className:
-                                        "img-after-ca me-1 cursor-pointer",
-                                      src: "/assets/img/icons/icon-3.png",
-                                    }),
-                                    (0, i.jsx)("img", {
-                                      alt: "",
-                                      onClick:
-                                        (null == c
-                                          ? void 0
-                                          : c.link_dextool) === "#"
-                                          ? () => {}
-                                          : () => {
-                                              window.open(
-                                                null == c
-                                                  ? void 0
-                                                  : c.link_dextool
-                                              );
-                                            },
-                                      className:
-                                        "img-after-ca me-1 cursor-pointer",
-                                      src: "/assets/img/icons/icon-4.png",
-                                    }),
-                                  ],
-                                }),
+                               
                               ],
                             }),
                           ],
