@@ -67,7 +67,7 @@
                       }),
                       (0, i.jsx)("div", {
                         className: "nav-footer",
-                        onClick: () => window.open("https://docs.pulse3d.ai"),
+                        onClick: () => window.open("https://docs.pulse3d-ai.xyz"),
                         children: "Documentation",
                       }),
                     ],
@@ -134,13 +134,13 @@
                     children: [
                       (0, i.jsx)("div", {
                         className: "text-white",
-                        onClick: () => window.open("https://docs.pulse3d.ai"),
+                        onClick: () => window.open("https://docs.pulse3d-ai.xyz"),
                         children: "Term Of Services",
                       }),
                       (0, i.jsx)("div", {
                         className: "ms-4 text-white",
                         onClick: () => {
-                          window.open("https://docs.pulse3d.ai");
+                          window.open("https://docs.pulse3d-ai.xyz");
                         },
                         children: "Privacy Policy",
                       }),
@@ -247,7 +247,7 @@
                             children: (0, i.jsx)("a", {
                               className: "nav-link cursor-pointer",
                               onClick: () => {
-                                window.open("https://docs.pulse3d.ai");
+                                window.open("https://docs.pulse3d-ai.xyz");
                               },
                               children: "Documentation",
                             }),
@@ -442,7 +442,7 @@
                                   className:
                                     "btn w-auto w-100  btn-custom-dark rounded-pill mx-2 my-md-0 my-1",
                                   onClick: () => {
-                                    window.open("https://docs.pulse3d.ai");
+                                    window.open("https://docs.pulse3d-ai.xyz");
                                   },
                                   children: [
                                     (0, i.jsx)("i", {
@@ -1403,7 +1403,7 @@
                                   className:
                                     "btn btn-custom-dark rounded-pill mx-2 my-1",
                                   onClick: () => {
-                                    window.open("https://docs.pulse3d.ai");
+                                    window.open("https://docs.pulse3d-ai.xyz");
                                   },
                                   children: [
                                     (0, i.jsx)("i", {
