@@ -148,7 +148,7 @@
                   }),
                   (0, i.jsx)("p", {
                     className: "col-md-6 text-xl-start text-center ",
-                    children: "\xa9 2024 Pulse3D. All rights reserved.",
+                    children: "\xa9 2025 Pulse3D. All rights reserved.",
                   }),
                 ],
               }),
