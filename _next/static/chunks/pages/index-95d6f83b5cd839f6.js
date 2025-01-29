@@ -340,12 +340,12 @@
           badge_3: !1,
           badge_4: !1,
           badge_5: !1,
-          contract_config: "0xcomingsoon",
-          link_uniswap: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon",
-          link_etherscan: "https://etherscan.io/address/0xcomingsoon",
-          link_dexcreener: "https://dexscreener.com/ethereum/0xcomingsoon",
+          contract_config: "0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
+          link_uniswap: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
+          link_etherscan: "https://etherscan.io/address/0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
+          link_dexcreener: "https://dexscreener.com/ethereum/0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
           link_dextool: "#",
-          contract_link: "https://etherscan.io/address/0xcomingsoon",
+          contract_link: "https://etherscan.io/address/0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
         });
         function d(e) {
           navigator.clipboard.writeText(e),
@@ -468,7 +468,7 @@
                                           (0, i.jsx)("a", {
                                             rel: "nofollow cursor-pointer",
                                             onClick:
-                                              "0xcomingsoon",
+                                              "0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
                                             children: (0, i.jsxs)("span", {
                                               className: "fw-800",
                                               style: {
@@ -477,7 +477,7 @@
                                               },
                                               children: [
                                                 "CA: ",
-                                                "0xcomingsoon",
+                                                "0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9",
                                               ],
                                             }),
                                           }),
@@ -486,7 +486,7 @@
                                               "text-white ms-md-3 ms-1",
                                             onClick: () => {
                                               d(
-                                                "0xcomingsoon"
+                                                "0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9"
                                               );
                                             },
                                             children: (0, i.jsx)("i", {
@@ -517,7 +517,7 @@
                                                   ? () => {}
                                                   : () => {
                                                       window.open(
-                                                        "0xcomingsoon"
+                                                        "0x2B1980B0Ee53Cb27ea197D07C1Ba3F15D856aad9"
                                                       );
                                                     },
                                               children: (0, i.jsx)("span", {
